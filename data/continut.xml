@@ -1,0 +1,87 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<pizzeria>
+    <acasa>
+        <titlu>PizzaBomba</titlu>
+        <descriere>Bine ați venit la PizzaBomba! Comandă pizze proaspete, făcute cu ingrediente locale și multă pasiune.</descriere>
+        <imagini>
+            <imagine src="assets/img/pizza1.jpg" alt="Pizza Margherita"/>
+        </imagini>
+        <exemple_text>
+            <bold>bold</bold>
+            <italic>italic</italic>
+            <underline>underline</underline>
+            <highlight>highlight</highlight>
+        </exemple_text>
+        <blockquote>"Pizza este mai mult decât mâncare, este o experiență."</blockquote>
+        <pre>Exemplu de cod:
+comanda("Pizza Margherita", "Chișinău, Str. București 25");</pre>
+    </acasa>
+
+    <meniu>
+        <pizza>
+            <nume>Pizza Margherita</nume>
+            <pret>90 MDL</pret>
+        </pizza>
+        <pizza>
+            <nume>Pizza Quattro Stagioni</nume>
+            <pret>120 MDL</pret>
+        </pizza>
+        <pizza>
+            <nume>Pizza Prosciutto</nume>
+            <pret>110 MDL</pret>
+        </pizza>
+        <bauturi>
+            <apa>20 MDL</apa>
+            <cola>25 MDL</cola>
+            <suc_natural>30 MDL</suc_natural>
+        </bauturi>
+        <exemple_taguri>
+            <strong>strong</strong>
+            <em>emphasized</em>
+            <sup>superscript</sup>
+            <sub>subscript</sub>
+        </exemple_taguri>
+    </meniu>
+
+    <despre>
+        <titlu>Despre PizzaBomba</titlu>
+        <istorie>
+            PizzaBomba a fost fondată în 2015 de o echipă de pizzeri pasionați.
+        </istorie>
+        <secret>
+            Ingrediente proaspete, dragoste pentru pizza și dedicare 100% pentru clienți.
+        </secret>
+        <blockquote>
+            <q>Pizza este mai mult decât mâncare, este o experiență.</q>
+        </blockquote>
+        <pre>
+Rețetă aluat:
+- Făină
+- Apă
+- Drojdie
+- Sare
+- Ulei de măsline
+        </pre>
+    </despre>
+
+    <contact>
+        <locatii>
+            <oras>
+                <nume>Chișinău</nume>
+                <adresa>Str. București 25</adresa>
+            </oras>
+            <oras>
+                <nume>Bălți</nume>
+                <adresa>Str. Independenței 12</adresa>
+            </oras>
+            <oras>
+                <nume>Cahul</nume>
+                <adresa>Str. Ștefan cel Mare 8</adresa>
+            </oras>
+        </locatii>
+        <date_contact>
+            <telefon>+373 600 000 00</telefon>
+            <email>contact@pizzabomba.md</email>
+        </date_contact>
+    </contact>
+</pizzeria>
