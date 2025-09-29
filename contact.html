@@ -3,49 +3,58 @@
 <head>
     <meta charset="UTF-8">
     <meta name="author" content="Nume Prenume">
-    <meta name="description" content="Contact PizzaBomba - locații și date de contact">
-    <meta name="keywords" content="contact pizza, locații Moldova, telefon, email">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="description" content="Pagina de contact PizzaBomba">
+    <meta name="keywords" content="contact, email, telefon, formular">
     <title>PizzaBomba - Contact</title>
-    <style>
-        body {margin:0;font-family:Arial,sans-serif;background-color:#eef6f9;}
-        header {background-color:#e63946;color:white;padding:20px;text-align:center;}
-        nav ul {list-style-type:none;padding:0;}
-        nav ul li {display:inline-block;margin:0 15px;}
-        nav ul li a {color:white;text-decoration:none;font-weight:bold;}
-        main {padding:20px;max-width:800px;margin:0 auto;}
-        .contact-section {background-color:white;padding:20px;border-radius:10px;box-shadow:0 2px 5px rgba(0,0,0,0.1);}
-        footer {background-color:#333;color:white;text-align:center;padding:10px;margin-top:20px;}
-    </style>
 </head>
 <body>
     <header>
-        <h1>Contact PizzaBomba</h1>
+        <h1>Contactează-ne</h1>
         <nav>
             <ul>
                 <li><a href="index.html">Acasă</a></li>
                 <li><a href="meniu.html">Meniu</a></li>
-                <li><a href="despre.html">Despre</a></li>
+                <li><a href="despre.html">Despre noi</a></li>
                 <li><a href="contact.html">Contact</a></li>
             </ul>
         </nav>
     </header>
 
     <main>
-        <div class="contact-section">
-            <h2>Locațiile noastre</h2>
-            <p>Chișinău – Str. București 25</p>
-            <p>Bălți – Str. Independenței 12</p>
-            <p>Cahul – Str. Ștefan cel Mare 8</p>
-
+        <section>
             <h2>Date de contact</h2>
-            <p>Telefon: <kbd>+373 600 000 00</kbd></p>
-            <p>Email: <samp>contact@pizzabomba.md</samp></p>
-        </div>
+            <p>Email: <a href="mailto:contact@pizzabomba.md">contact@pizzabomba.md</a></p>
+            <p>Telefon: <a href="tel:+37360111222">+373 60 111 222</a></p>
+        </section>
+
+        <section>
+            <h2>Formular de contact</h2>
+            <form>
+                <label for="nume">Nume:</label><br>
+                <input type="text" id="nume" name="nume"><br><br>
+
+                <label for="email">Email:</label><br>
+                <input type="email" id="email" name="email"><br><br>
+
+                <p>Tip comandă:</p>
+                <input type="radio" id="livrare" name="tip" value="livrare">
+                <label for="livrare">Livrare</label><br>
+                <input type="radio" id="pickup" name="tip" value="pickup">
+                <label for="pickup">Ridicare personală</label><br><br>
+
+                <input type="checkbox" id="terms" name="terms">
+                <label for="terms">Accept termenii</label><br><br>
+
+                <label for="mesaj">Mesaj:</label><br>
+                <textarea id="mesaj" name="mesaj" rows="4" cols="30"></textarea><br><br>
+
+                <button type="submit">Trimite</button>
+            </form>
+        </section>
     </main>
 
     <footer>
-        <p>&copy; 2025 PizzaBomba</p>
+        <p><small>&copy; 2025 PizzaBomba</small></p>
     </footer>
 </body>
 </html>

@@ -3,53 +3,66 @@
 <head>
     <meta charset="UTF-8">
     <meta name="author" content="Nume Prenume">
-    <meta name="description" content="Meniul PizzaBomba - cele mai bune rețete">
-    <meta name="keywords" content="meniu pizza, PizzaBomba, prețuri">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="description" content="Meniul PizzaBomba - pizza, băuturi și deserturi">
+    <meta name="keywords" content="meniu, pizza, desert, băutură, prețuri">
     <title>PizzaBomba - Meniu</title>
-    <style>
-        body {margin:0;font-family:Arial,sans-serif;background-color:#eef6f9;}
-        header {background-color:#e63946;color:white;padding:20px;text-align:center;}
-        nav ul {list-style-type:none;padding:0;}
-        nav ul li {display:inline-block;margin:0 15px;}
-        nav ul li a {color:white;text-decoration:none;font-weight:bold;}
-        main {padding:20px;max-width:800px;margin:0 auto;}
-        .produs {background-color:white;padding:15px;margin-bottom:15px;border-radius:10px;box-shadow:0 2px 5px rgba(0,0,0,0.1);}
-        footer {background-color:#333;color:white;text-align:center;padding:10px;margin-top:20px;}
-    </style>
 </head>
 <body>
     <header>
-        <h1>Meniul nostru</h1>
+        <h1>Meniul PizzaBomba</h1>
         <nav>
             <ul>
                 <li><a href="index.html">Acasă</a></li>
                 <li><a href="meniu.html">Meniu</a></li>
-                <li><a href="despre.html">Despre</a></li>
+                <li><a href="despre.html">Despre noi</a></li>
                 <li><a href="contact.html">Contact</a></li>
             </ul>
         </nav>
     </header>
 
     <main>
-        <div class="produs">
-            <h2>Pizza Margherita</h2>
-            <p>Preț: <del>100</del> <ins>90</ins> MDL</p>
-        </div>
-        <div class="produs">
-            <h2>Pizza Quattro Stagioni</h2>
-            <p>Preț: <mark>120 MDL</mark></p>
-        </div>
-        <div class="produs">
-            <h2>Pizza Prosciutto</h2>
-            <p>Preț: <u>110 MDL</u></p>
-        </div>
-        <p>Băuturi: Apă 20 MDL, Cola 25 MDL, Suc natural 30 MDL</p>
-        <p>Exemplu taguri: <strong>strong</strong>, <em>emphasized</em>, <sup>superscript</sup>, <sub>subscript</sub></p>
+        <section>
+            <h2>Lista produselor</h2>
+            <ul>
+                <li>Pizza Margherita</li>
+                <li>Pizza Quattro Stagioni</li>
+                <li>Pizza Vegetariană</li>
+                <li>Pizza Pepperoni</li>
+            </ul>
+        </section>
+
+        <section>
+            <h2>Preturi speciale</h2>
+            <table border="1">
+                <tr>
+                    <th>Produs</th>
+                    <th>Dimensiune</th>
+                    <th>Pret</th>
+                </tr>
+                <tr>
+                    <td rowspan="2">Pizza Margherita</td>
+                    <td>Mica</td>
+                    <td>70 MDL</td>
+                </tr>
+                <tr>
+                    <td>Mare</td>
+                    <td>120 MDL</td>
+                </tr>
+                <tr>
+                    <td colspan="2">Oferta Zilei</td>
+                    <td>99 MDL</td>
+                </tr>
+            </table>
+        </section>
+
+        <section>
+            <h2>Media externă</h2>
+            <iframe width="560" height="315" src="https://youtu.be/csTgZE22PtA?si=MsrSXX1R-0ZjUylT" title="YouTube video" frameborder="0" allowfullscreen></iframe>
+        </section>
     </main>
 
     <footer>
-        <p>&copy; 2025 PizzaBomba</p>
+        <p><small>&copy; 2025 PizzaBomba</small></p>
     </footer>
 </body>
 </html>
