@@ -1,0 +1,160 @@
+/* Selectori de element */
+body {
+    background-color: #ffffff; /* verde deschis pentru fundal pagină */
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+    line-height: 1.6;
+    color: #3b3b3b;
+}
+
+h1 {
+    color: #21b300; /* roșu intens */
+    font-size: 2.5em;
+    text-align: center;
+    font-weight: bold;
+    margin-bottom: 10px;
+}
+
+h2 {
+    color: #4d994d; /* verde mediu */
+    font-size: 2em;
+    margin-top: 20px;
+}
+
+p {
+    font-size: 1em;
+    text-align: justify;
+    margin: 10px 0;
+    color: #333;
+}
+
+/* Selectori de clasă */
+.titlu {
+    color: #660000; /* roșu închis */
+    font-size: 1.5em;
+    font-weight: bold;
+}
+
+.important {
+    color: #339933; /* verde mai închis */
+    font-style: italic;
+}
+
+/* Selector de id */
+#principal {
+    padding: 20px;
+    background-color: #6eff26; /* verde palid */
+    border-radius: 10px;
+    margin-bottom: 20px;
+}
+
+/* Navigație */
+nav ul {
+    list-style-type: none;
+    padding: 0;
+    text-align: center;
+    background-color: #d10000; /* roșu închis */
+}
+
+nav ul li {
+    display: inline-block;
+    margin: 0 15px;
+}
+
+nav ul li a {
+    text-decoration: none;
+    color: #e6ffe6; /* verde foarte deschis */
+    font-weight: bold;
+}
+
+nav ul li a:hover {
+    color: #66cc66; /* verde mediu */
+}
+
+nav ul li a:visited {
+    color: #ffffff; /* roșu pal */
+}
+
+/* Liste */
+ul.custom li {
+    list-style-type: square;
+    color: #339933;
+}
+
+ol.custom li {
+    list-style-type: decimal-leading-zero;
+    color: #fe9a9a;
+}
+
+/* Imagini și video */
+img {
+    border: 3px solid #b30000; /* roșu intens */
+    border-radius: 8px;
+    margin: 5px;
+}
+
+video {
+    border: 3px solid #339933; /* verde mediu */
+    border-radius: 8px;
+}
+
+/* Formular */
+form {
+    background-color: #ccffcc; /* verde palid */
+    padding: 20px;
+    border-radius: 10px;
+    max-width: 400px;
+    margin: 20px auto;
+}
+
+input, textarea {
+    width: 100%;
+    padding: 5px;
+    margin-bottom: 10px;
+    border-radius: 5px;
+    border: 1px solid #660000; /* roșu închis */
+    box-sizing: border-box;
+}
+
+button {
+    background-color: #b30000; /* roșu intens */
+    color: #e6ffe6; /* verde foarte deschis */
+    border: none;
+    padding: 10px 15px;
+    border-radius: 5px;
+    cursor: pointer;
+}
+
+button:hover {
+    background-color: #339933; /* verde mediu */
+}
+
+/* Footer */
+footer {
+    text-align: center;
+    padding: 15px;
+    background-color: #660000; /* roșu închis */
+    color: #e6ffe6; /* verde foarte deschis */
+}
+
+/* Secțiuni */
+section {
+    padding: 20px;
+    margin: 20px;
+    background-color: #f0fff0; /* verde foarte pal */
+    border-radius: 10px;
+    box-shadow: 2px 2px 8px rgba(0,0,0,0.1);
+}
+
+/* Fundal pentru secțiuni */
+#galerie {
+    background-image: url("img/fundal.jpg");
+    background-size: cover;
+    background-position: center;
+}
+
+/* Margin și padding generale */
+* {
+    box-sizing: border-box;
+}
